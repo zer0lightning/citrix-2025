@@ -23,3 +23,5 @@ local ~ $ ssh nsroot@<YOUR-NETSCALER-IP> "pb_policy -d"
 ``` 
 
 5. The resulting files are typically written to `/var/core/`.
+
+Back to [Citrix Core Dump README.md](README.md).
