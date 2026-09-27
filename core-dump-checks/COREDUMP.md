@@ -1,4 +1,7 @@
 ## Generating Core Dumps on Citrix Environments
+> [!WARNING]  
+> **HIGH TRAFFIC IMPACT INTERRUPTION**  
+> Running a `kill -6` command on the Packet Engine (`NSPPE`) process will cause the process to crash intentionally. This results in **immediate service disruption, dropped connections, and a failover event** if the NetScaler is configured in a High Availability (HA) pair. Only perform this action during an approved maintenance window.
 
 ### Citrix NetScaler (ADC) Packet Engines (NSPPE)
 
